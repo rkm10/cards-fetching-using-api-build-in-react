@@ -1,0 +1,39 @@
+.container {
+      padding: 30px;
+}
+
+.product-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin: 20px;
+      justify-content: center;
+
+}
+
+.card {
+      width: 250px;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 5px 5px 10px gray;
+
+}
+
+
+.card img {
+      width: 100%;
+      height: 250px;
+      object-fit: contain;
+      transition: 1s ease-in-out;
+      mix-blend-mode: multiply;
+}
+
+.card img:hover {
+      transform: scale(1.2);
+}
+
+h1 {
+      text-align: center;
+}
