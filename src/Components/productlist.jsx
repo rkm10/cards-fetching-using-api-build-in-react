@@ -13,9 +13,12 @@ export default function Productlist() {
             let resource = await fetch('https://fakestoreapi.in/api/products');
             let productslist = await resource.json()
             updateProducts(productslist.products)
-            console.log(productslist.products)
-
+            // console.log(productslist.products)
+            // productslist.products.forEach((product) => {
+            //       console.log(product.category)
+            // })
       }
+
 
       if (products.length == 0) {
             return (<h1>Fetching data....</h1>)
@@ -29,3 +32,4 @@ export default function Productlist() {
             </>
       )
 }
+

@@ -37,3 +37,17 @@
 h1 {
       text-align: center;
 }
+
+.menu {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      list-style: none;
+      height: 50px;
+      background: #a6a6e1;
+      align-items: center;
+}
+
+body {
+      margin: 0;
+}
