@@ -27,7 +27,8 @@
       border-radius: 5px;
       box-shadow: 5px 5px 10px gray;
       cursor: pointer;
-
+      text-decoration: none;
+      color: black;
 }
 
 

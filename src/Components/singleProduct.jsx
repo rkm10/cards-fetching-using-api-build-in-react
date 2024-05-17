@@ -9,7 +9,7 @@ export default function SingleProduct() {
 
       useEffect(() => {
             getProduct();
-      }, { id });
+      }, [id]);
 
       function getProduct() {
             fetch(`https://fakestoreapi.in/api/products/${id}`)
