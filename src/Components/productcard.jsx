@@ -1,12 +1,13 @@
-export default function ProductCard({ title, image, price }) {
+import { Link } from "react-router-dom";
+
+export default function ProductCard({ id, title, image, price }) {
       return (
             <>
-
-                  <div className="card">
+                  <Link className="card" to={`/details/${id}`} >
                         <img src={image} />
                         <p>{title}</p>
                         <p> $ {price} </p>
-                  </div>
+                  </Link>
             </>
       )
 }
