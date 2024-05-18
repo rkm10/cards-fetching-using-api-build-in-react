@@ -97,3 +97,9 @@ body {
       justify-content: space-between;
       font-family: 'Courier New', Courier, monospace;
 }
+
+.searchbar {
+      display: flex;
+      padding: 10px;
+      justify-content: center;
+}
